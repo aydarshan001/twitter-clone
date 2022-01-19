@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,25 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+    --twitter-color: #50b7f5;
+    --twitter-background: #e6ecf0;
+}
+
+.App {
+    display: flex;
+    height: 100vh;
+    /* margin: 0 auto; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    padding: 0 10px;
+}
+
+.bigbox {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }

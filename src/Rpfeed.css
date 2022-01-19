@@ -1,0 +1,6 @@
+.hbox {
+    background-color: var(--twitter-background);
+    padding: 10px;
+    width: 330px;
+    border-radius: 20px;
+}

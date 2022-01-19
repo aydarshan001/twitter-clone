@@ -1,0 +1,28 @@
+.siderbaropt {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.siderbaropt:hover {
+    color: var(--twitter-color);
+    transition: 100ms ease-in-out;
+    background-color: #e8f5fe;
+}
+
+.siderbaropt .icon {
+    padding: 17px;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.sidebarpoption-active {
+    color: var(--twitter-color);
+    /* background-color: #e8f5fe; */
+}
